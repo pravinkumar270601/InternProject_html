@@ -1,0 +1,697 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish';
+}
+
+
+/* Navigation bar start --------------------------------*/
+.li-di{
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #add3edb8;
+    padding-bottom: 15px;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+ul#nav-prt2 li:last-child a {
+    padding-right: 0;
+}
+/* Navigation bar end --------------------------------*/
+
+a{
+    text-decoration: none;
+    
+}
+#nav-prt1{
+    margin-top: 31px;
+}
+
+#nav-prt1 a{
+    color: black;
+    font-weight:bold;
+}
+
+
+#nav-prt2 a{
+    color: rgb(0, 0, 0,0.8);
+}
+
+
+
+/* first page body  */
+
+.first-page-body{
+    display: flex;
+    padding-top: 90px;
+    background-color:#add3ed;
+    
+    
+}
+
+
+
+#fp-img2{
+    position: absolute;
+    top: 66%;
+    right: 49%;
+}
+
+#fp-img3{
+    position: absolute;
+    top: 32%;
+    right: 44%;
+}
+
+#fp-img4{
+    position: absolute;
+    top: 16%;
+    right: 14%;
+}
+
+.first-pg-btn1{
+    padding: 18px 24px 18px 24px;
+    margin: 25px 10px 0px 0px;
+    color: white;
+    background-color: #1E3240;
+}
+
+.first-pg-btn2{
+    padding: 18px 24px 18px 24px;   
+    background-color:#add3ed;
+}
+
+.second-page-body{
+    display: flex;
+    background-color: #FFFFFF;
+    height: 100vh; 
+    width: 100vw;
+    /* position: relative; */
+}
+
+.second-page-left{
+    
+    background-color: #FFFFFF;
+    width: 51%;
+    padding: 11% 0px 0px 11%;
+    
+}
+
+.second-page-left img{
+    height: 400px;
+    width: 370px;
+    
+
+    
+    /* position: relative;   */
+}
+
+.second-page-right{
+    width: 470px;
+    padding-top: 130px;
+   
+}
+
+
+
+.second-pg-pra1{
+    font-weight: bold;
+    font-size: 40px;
+    width: 440px;
+}
+.second-pg-pra2{
+    padding: 35px 0px 35px 0px ;
+    width: 400px;
+    font-size: 14px;
+    color: rgb(0, 0, 0,0.4);
+}
+
+.second-pg-pra3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    width: 405px;
+    color: #AFD4E2  ;
+}
+
+.p-p{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 7px;
+    color: rgb(0, 0, 0,0.8);
+}
+
+/* 3rd-page */
+
+.thrd-page-body{
+    padding: 0px 0px 0px 11%;
+    height: 100vh;
+    margin-top: 34px;
+    
+}
+
+.thrd-pg-pra1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 32px;
+
+}
+
+.thrd-pg-pra2{
+    width: 400px;
+    font-size: 14px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 7px;
+}
+
+.thrd-pg-arrow{
+    position: relative;
+    right: -941px;
+    top: -26px;
+    width: 50px;
+}
+
+.thrd-pg-bottom{
+    display: flex;
+    
+
+}
+
+
+
+#img-alone{
+    height: 100%;
+    padding-top: 35px;
+    width: 100%;
+
+}
+/* 4rd-page */
+
+
+
+.fourth-pg-pra1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 35px;
+    
+}
+
+.fourth-pg-pra2{
+    
+    font-size: 14px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 7px;
+    text-align: center;
+}
+.fourth-page-bottom{
+    display: flex;
+    padding: 0px 0px 0px 11% ;
+    height: 100vh;
+}
+
+.fourth-img{
+    width: 430px;
+    height: 410px;
+    padding-top: 70px;
+}
+
+.fourth-page-right{
+    width: 45%;
+
+}
+
+.fourth-page-left {
+    width: 55%;
+    
+
+}
+.fourth-page-left p{
+   
+    width: 480px;
+    
+
+}
+
+.fourth-page-left h3{
+    font-size: 27px;
+    padding-top: 172px;
+}
+
+.fourth-pg-pra3{
+    font-size: 24px;
+    padding-top: 20px;
+    color: rgb(0, 0, 0,0.4);
+}
+
+.fourth-pg-pra4{
+    padding-top: 20px;
+    font-size: 24px;
+    color: rgb(0, 0, 0,0.8);
+
+}
+
+.fourth-pg-pra5{
+    color: rgb(0, 0, 0,0.6);
+    
+}
+
+/* fifth page */
+
+.fifth-page-body{
+    display: flex;
+    padding: 0px 0px 0px 11% ;
+    height: 100vh;
+}
+
+.fifth-img{
+
+    width: 430px;
+    height: 450px;
+    padding-top: 80px;
+}
+
+
+.fifth-page-left{
+    width: 45%;
+
+}
+
+/* .fifth-page-left{
+    margin-left: 100px;
+} */
+
+.fifth-pg-pra1{
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+.fifth-pg-pra2{
+   
+    padding-top: 20px;
+    color: rgb(0, 0, 0,0.4);
+    margin-bottom: 30px;
+
+}
+
+.input-2{
+    padding: 10px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.input-1{
+    padding: 10px;
+    width: 85%;
+    padding-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.fifth-pg-input{
+    width: 450px;
+}
+
+.fifth-pg-button{
+    padding: 18px 24px 18px 24px;
+    margin: 25px 10px 0px 0px;
+    color: white;
+    background-color: #1E3240;
+}
+
+/* footer page */
+
+.footer-page-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 11% ;
+    height: 50vh;
+    background-color: #1E3240;   
+}
+
+.footer-page-body .p{
+    color: rgb(255, 255, 255,0.6);
+    padding-top: 11px;
+
+}
+
+.p1{
+    color: rgb(255, 255, 255,0.6);
+    padding-top: 13px;
+    margin-top: 70px;
+
+}
+
+.footer-page-right{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.footer-page-left{
+    display: flex;
+    width: 55%;
+    justify-content:start;
+    
+
+}
+
+.footer-page-heading{
+    font-weight: bold;
+    font-size: 16px;
+    color: white; 
+    margin-top: 70px;
+    
+}
+
+.footer-page-left >div{
+    margin-right: 70px;
+}
+
+
+
+/* #################### RESPONSIVE CSS ############################## */
+
+
+/* desktop css start ---------------------------------------------*/
+@media (min-width:992px) {
+
+    body{
+        min-height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0px;
+        margin: 0px;
+       
+     }
+    header{
+        height: 100vh;
+        width: 100vw;
+        
+    }
+    
+    #nav-prt2 a{
+        padding: 28px;
+    }
+    .first-page-right #fp-img1{
+
+        /* width: 37rem;
+        height: 40rem; */
+        width: 45%;
+        height: 105%;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+    .page-first{
+        position: relative;
+        height: 100vh;
+        background-color:#add3ed;
+    }
+    #nav-prt2{
+        margin: 31px 0px 0px 165px ;
+    
+    }
+    .first-page-left{
+   
+        width: 60%;
+        padding-left: 11%;
+        /* border: 1px solid black; */
+    }
+
+    .first-page-right{
+        width: 40%;
+        
+    }
+
+    .firt-pg-pra1{
+        font-weight: 1000;
+        font-size: 4.8rem;
+        margin: 0px;
+        width: 75%;
+    }
+    .thrd-pg-bottom .img-group{
+        padding-top: 30px;
+        height: 100%;
+        padding-right: 33px;
+        width: 100%;
+        justify-content: space-between;
+    
+    }
+    
+}
+/* desktop css end ------------------------------------------------*/
+
+
+/* Mobile View CSS Start ######################----------------------------*/
+@media (max-width:991px) {
+    /* body{
+        min-height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0px;
+        margin: 0px;
+       
+     } */
+    
+    .mob-flex-col{
+        flex-direction: column;
+    }
+    .mob-d-none{
+        display: none;
+    }
+    
+    #nav-prt1 {
+        margin-top: 11px;
+    }
+    #nav-prt2 a{
+        padding: 10px;
+    }
+    #nav-prt1 a {
+    color: white;
+    font-weight: bold;
+    background-color: #1E3240;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 35px;
+    }
+
+    ul#nav-prt2 li:first-child a {
+        padding-left: 0;
+    }
+    .first-page-body{
+        background-image: url('./media/House\ 1.png');
+        background-size: 100%;
+    }
+
+    .firt-pg-pra1 {
+        font-weight: 900;
+        font-size: 2.8rem;
+        /* width: 75%; */
+        padding-bottom: 15px;
+        padding-left: 11%;
+        margin-top: 105px;
+    }
+
+    .firt-pg-pra2{
+        padding-left: 11%;
+    
+    }
+
+    .first-pg-btn1 {
+        padding:15px;
+        margin: 24px 34px 42px 11%;
+        color: white;
+        background-color: #1E3240;
+    }
+    
+    .first-pg-btn2 {
+        padding:15px;
+        background-color: #add3ed;
+    }
+    
+    .second-page-left img {
+        height: 351px;
+        width: 314px;
+        /* position: relative; */
+    }
+    .second-page-right {
+        
+        padding-top: 29px;
+    }
+
+    .second-page-right {
+        padding-top: 29px;
+        margin-left: 11%;
+    }
+    .second-pg-pra1 {
+       
+        font-size: 33px;
+        width: 340px;
+    }
+    .second-pg-pra2 {
+        padding: 35px 0px 35px 0px;
+        width: 340px;
+        font-size: 14px;
+        
+    }
+
+    .p-p {
+        
+        font-size: 27px;
+        padding-top: 7px;
+        
+    }
+
+    .second-pg-pra3 {
+        
+        font-size: 9px;
+        width: 310px;
+        
+    }
+
+    .thrd-page-body {
+        padding: 0px 0px 0px 11%;
+        /* height: 100vh; */
+        margin-top: 131px;
+    }
+    .thrd-pg-pra1 {
+        
+        font-size: 33px;
+        margin-top: 32px;
+    }
+
+    .thrd-pg-pra2 {
+        width: 340px;
+        
+    }
+    .thrd-pg-bottom >div{
+        width: 50%;
+        
+    }
+    .thrd-pg-bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #img-alone {
+        height: 42%;
+        padding-top: 35px;
+        width: 100%;
+        padding-right: 35px;
+    }
+    .thrd-pg-bottom .img-group{
+        padding-top: 30px;
+        
+        padding-right: 33px;
+        width: 100%;
+        justify-content: space-between;
+    
+    }
+    .fifth-page-body{
+        padding-top: 29px;
+        margin-left: 11%;
+
+    }
+
+    
+    
+    .fourth-pg-pra1 {
+        font-size: 33px;
+        text-align: center;
+        padding-top: 35px;
+        margin-left: 11%;
+        text-align: left;
+    }
+    .fourth-pg-pra2 {
+        margin-left: 11%;
+        margin-right: 11%;
+        text-align: left;
+        
+    }
+
+    .fourth-img {
+    width: 314px;
+    height: 372px;
+    padding-top: 53px;
+    }
+    .fourth-page-left {
+        width: 100%;
+    }
+
+    .fourth-page-left h3 {
+        
+        padding-top: 70px;
+    }
+    
+    .fourth-page-left p {
+        width: 327px;
+        font-size: 19px;
+    }
+    .fifth-page-left {
+        width: 100%;
+    }
+
+    .fifth-page-body{
+        padding-top: 29px;
+        padding-left: 0;
+        
+    }
+    .fifth-img {
+        width: 307px;
+        height: 391px;
+        padding-top: 80px;
+    }
+    .fifth-pg-pra2 {
+        margin-right: 11%;
+    }
+    .fifth-pg-pra1 {
+        padding-top: 28px;
+    }
+    .fifth-page-body {
+        padding-top: 29px;
+        padding-left: 0;
+        margin-bottom: 276px;
+    }
+    .input-2 {
+        padding: 3.5px;
+        margin-right: 1px;
+        margin-top: 16px;
+    }
+    .input-1 {
+        padding: 10px;
+        width: 72%;
+        padding-bottom: 31px;
+        margin-top: 20px;
+    }
+    .fifth-pg-button {
+        padding: 15px;
+        margin: 25px 10px 0px 0px;
+        color: white;
+        background-color: #1E3240;
+    }
+    .footer-page-body{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .footer-page-left{
+        margin-bottom: 24px;
+    }
+   
+    }
+    
+
+/* Mobile View CSS End ------------------------------------------------*/
+
+
+
+
+
+
