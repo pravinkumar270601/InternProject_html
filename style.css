@@ -7,18 +7,7 @@
 
 
 /* Navigation bar start --------------------------------*/
-.li-di{
-    display: flex;
-    justify-content: space-between;
-    z-index: 99;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background: #add3edb8;
-    padding-bottom: 15px;
-    padding-left: 11%;
-    padding-right: 11%;
-}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -391,6 +380,18 @@ a{
         margin: 0px;
        
      }
+     .li-di{
+        display: flex;
+        justify-content: space-between;
+        z-index: 99;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background: #add3edb8;
+        padding-bottom: 15px;
+        padding-left: 11%;
+        padding-right: 11%;
+    }
     header{
         height: 100vh;
         width: 100vw;
@@ -460,6 +461,23 @@ a{
         margin: 0px;
        
      } */
+     body{
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0px;
+        margin: 0px;
+       
+     }
+     .li-di{
+        width: 100vw;
+        z-index: 99;
+        position: fixed;
+        top: 0;
+        background: #add3edb8;
+        padding-bottom: 15px;
+        padding-left: 11%;
+        padding-right: 11%;
+    }
     
     .mob-flex-col{
         flex-direction: column;
@@ -676,6 +694,21 @@ a{
         margin: 25px 10px 0px 0px;
         color: white;
         background-color: #1E3240;
+    }
+
+    .fifth-pg-input {
+
+        display: flex;
+        flex-direction: column;
+    }
+    .input-2 {
+       
+        width: 48vw;
+    }
+    .input-1 {
+       
+        width: 68%;
+       
     }
     .footer-page-body{
         flex-direction: column;
