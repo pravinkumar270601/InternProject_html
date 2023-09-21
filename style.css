@@ -447,6 +447,11 @@ a{
         justify-content: space-between;
     
     }
+    .fifth-img{
+        width: 430px;
+        height: 491px;
+        padding-top: 80px;
+    }
     
 }
 /* desktop css end ------------------------------------------------*/
