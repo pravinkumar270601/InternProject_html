@@ -723,7 +723,10 @@ a{
         width: 100vw;
         overflow-x: hidden;
     }
-   
+    
+    .p1 {
+    margin-top: 50px;
+    }
     }
     
 
