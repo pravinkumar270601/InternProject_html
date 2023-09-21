@@ -452,6 +452,16 @@ a{
         height: 491px;
         padding-top: 80px;
     }
+    .second-page-left img {
+        height: 400px;
+        width: 422.8px;
+        
+    }
+    .fourth-img {
+        width: 430px;
+        height: 470px;
+        padding-top: 70px;
+    }
     
 }
 /* desktop css end ------------------------------------------------*/
