@@ -461,9 +461,9 @@ a{
         margin: 0px;
        
      } */
-     body{
+     *{
         width: 100vw;
-        overflow-x: hidden;
+        overflow: hidden;
         padding: 0px;
         margin: 0px;
        
