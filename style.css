@@ -714,6 +714,7 @@ a{
     .footer-page-body{
         flex-direction: column;
         height: fit-content;
+        padding: 0px 0px 11% 11%;
     }
     .footer-page-left{
         margin-bottom: 24px;
