@@ -718,6 +718,11 @@ a{
     .footer-page-left{
         margin-bottom: 24px;
     }
+
+    main{
+        width: 100vw;
+        overflow-x: hidden;
+    }
    
     }
     
