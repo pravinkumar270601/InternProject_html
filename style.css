@@ -471,7 +471,6 @@ a{
      .li-di{
         width: 100vw;
         z-index: 99;
-        position: fixed;
         top: 0;
         background: #add3edb8;
         padding-bottom: 15px;
