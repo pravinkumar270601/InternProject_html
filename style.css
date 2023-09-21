@@ -45,14 +45,6 @@ a{
     
 }
 
-
-
-#fp-img2{
-    position: absolute;
-    top: 66%;
-    right: 49%;
-}
-
 #fp-img3{
     position: absolute;
     top: 32%;
@@ -461,6 +453,11 @@ a{
         width: 430px;
         height: 470px;
         padding-top: 70px;
+    }
+    #fp-img2 {
+        position: absolute;
+        top: 56%;
+        right: 49%;
     }
     
 }
