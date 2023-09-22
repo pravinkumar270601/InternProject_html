@@ -44,7 +44,6 @@ a{
     
     
 }
-
 #fp-img3{
     position: absolute;
     top: 32%;
@@ -437,13 +436,68 @@ a{
         padding-right: 33px;
         width: 100%;
         justify-content: space-between;
+        
     
     }
+    
+
+    #img-alone{
+        height: 100%;
+        padding-top: 31px;
+        width: 100%;
+       
+    
+    }
+
+
+    #fp-img2 {
+        position: absolute;
+        top: 56%;
+        right: 49%;
+    }
+
+    .img-div{
+        position: relative;
+        
+    }
+    .img-div > .img-par{
+        position: absolute;
+        background-color: white;
+        padding:15px ;
+        bottom: -33px;
+        left:37px;
+        width: 70%;
+
+    }
+
+    .img-div >.img-par-last {
+        position: absolute;
+        background-color: white;
+        bottom: -33px;
+        left: 37px;
+        padding:15px ;
+        overflow: hidden;
+        width: 100%;
+        
+    }
+
+
+    .thrd-pg-img-pra{
+        font-size: 12px;
+        color: black;
+    }
+    .thrd-pg-img-pra-last{
+        font-size: 12px;
+        color: black;
+    }
+
     .fifth-img{
+
         width: 430px;
         height: 491px;
         padding-top: 80px;
     }
+    
     .second-page-left img {
         height: 400px;
         width: 422.8px;
@@ -454,12 +508,6 @@ a{
         height: 470px;
         padding-top: 70px;
     }
-    #fp-img2 {
-        position: absolute;
-        top: 56%;
-        right: 49%;
-    }
-    
 }
 /* desktop css end ------------------------------------------------*/
 
@@ -627,6 +675,13 @@ a{
         justify-content: space-between;
     
     }
+
+    .img-par{
+        display: none;
+    }
+    .img-par-last{
+        display: none;
+    }
     .fifth-page-body{
         padding-top: 29px;
         margin-left: 11%;
@@ -641,6 +696,7 @@ a{
         padding-top: 35px;
         margin-left: 11%;
         text-align: left;
+        padding-right: 11%;
     }
     .fourth-pg-pra2 {
         margin-left: 11%;
