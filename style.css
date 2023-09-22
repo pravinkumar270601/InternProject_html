@@ -679,12 +679,20 @@ a{
     
     }
 
-    .img-par{
+/*     .img-par{
         display: none;
     }
     .img-par-last{
         display: none;
+    } */
+    
+    .thrd-pg-img-pra{
+        display: none;
     }
+    .thrd-pg-img-pra-last{
+        display: none;
+    }
+    
     .fifth-page-body{
         padding-top: 29px;
         margin-left: 11%;
