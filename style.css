@@ -37,13 +37,7 @@ a{
 
 /* first page body  */
 
-.first-page-body{
-    display: flex;
-    padding-top: 90px;
-    background-color:#add3ed;
-    
-    
-}
+
 #fp-img3{
     position: absolute;
     top: 32%;
@@ -393,6 +387,13 @@ a{
     #nav-prt2 a{
         padding: 28px;
     }
+    .first-page-body{
+    display: flex;
+    padding-top: 90px;
+    background-color:#add3ed;
+    
+    
+}
     .first-page-right #fp-img1{
 
         /* width: 37rem;
@@ -570,6 +571,7 @@ a{
         rgb(255, 255, 255,0.4), rgb(255, 255, 255,0.4)), url("./media/House\ 1.png");
         background-size: 100%;
         padding-top: 11%;
+        background-color:#add3ed;
     }
 
     .firt-pg-pra1 {
@@ -578,7 +580,7 @@ a{
         /* width: 75%; */
         padding-bottom: 15px;
         padding-left: 11%;
-        margin-top: 105px;
+        padding-top: 5%;
     }
 
     .firt-pg-pra2{
