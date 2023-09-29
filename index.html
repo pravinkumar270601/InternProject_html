@@ -69,9 +69,9 @@
                         in lobortis ornare magna.
                     </p>
                     <div class="second-pg-pra3">
-                        <div><p>PREVIOUS PROJECTS <p class="p-p">34+</p></p></div>
-                        <div> <p>YEARS EXPERIENCE <p class="p-p">20Y</p></p></div>
-                        <div><p>ONGOING PROJECTS<p class="p-p">12</p></p></div>
+                        <div><p>PREVIOUS PROJECTS <p class="p-p"><span class="inc-num" value="34">0</span>+</p></p></div>
+                        <div> <p>YEARS EXPERIENCE <p class="p-p"><span class="inc-num" value="20">0</span>Y</p></p></div>
+                        <div><p>ONGOING PROJECTS<p class="p-p"><span class="inc-num" value="12">0</span></p></p></div>
                     </div>
                 
                 </div>
@@ -86,11 +86,14 @@
 
                     <h2 class="thrd-pg-pra1">Ongoing projects</h2>
                     <p class="thrd-pg-pra2">Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
-                    <img src="./media/Arrow.png" alt="" class="thrd-pg-arrow">
+                   <a href="#img-slide1"> <img src="./media/arrow-2.png" alt="" class="thrd-pg-arrow"></a>
+                    <a href="#img-alone"><img src="./media/arrow-1.png" alt="" class="thrd-pg-arrow"></a>
                     
-                    <div class="thrd-pg-bottom">
+                
+                <div class="scroll-container">
+                    <div class="thrd-pg-bottom scroll">
                         <div class="img-div">
-                            <img src="./media/left bg (3).png" alt="" class="img-group" >
+                            <img src="./media/left bg (3).png" alt="" class="img-group" id="img-slide1">
                             <div class="img-par">
                                 <h4><b>Vintage Villa</b></h4>
                                 <p class="thrd-pg-img-pra"><span><img src="./media/ic_round-location-on.png" alt=""></span>2715 Ash Dr. San Jose, Dubai</p>
@@ -111,13 +114,14 @@
                             </div>
                         </div>
                         <div class="img-div">
-                            <img src="./media/left bg (5).png" alt=""  id="img-alone" >
+                            <img src="./media/left bg (4).png" alt=""  id="img-alone" >
                             <div class="img-par-last">
                                 <h4><b>Smart city</b></h4>
-                                <p class="thrd-pg-img-pra-last"><span><img src="./media/ic_round-location-on.png" alt=""></span>2715 Ash Dr.</p>
+                                <p class="thrd-pg-img-pra-last"><span><img src="./media/ic_round-location-on.png" alt=""></span>2715 Ash Dr.Mesa, 45463<</p>
                             </div>
                         </div>    
                     </div>
+                </div>
 
             </div>
 
@@ -163,11 +167,12 @@
                         
                         <input type="text" class="input-2" placeholder="First name">
                         <input type="text" class="input-2" placeholder="Last name">
-                        <input type="text" class="input-2" placeholder="Email address">
-                        <input type="text" class="input-2" placeholder="Phone number">
+                        <input type="email" class="input-2" placeholder="Email address">
+                        <input type="number" class="input-2" placeholder="Phone number">
                         <input type="text" class="input-1" placeholder="Description ">
                     </div>
                     <button class="fifth-pg-button">Get a quote</button>
+                    <span class="fifth-pg-par3"> We don’t sell your email and spam </span>
 
                 </div>
             </div>
@@ -210,13 +215,39 @@
                     <p class="p">Facebook</p>
                     <p class="p">Twitter</p>
                     <p class="p">YouTube</p>
-                    <p class="p">Linkedin</p>
+                    <p class="p" id="my">Linkedin</p>
                 </div>
             </div>
 
         </div>
 
     </footer>
+
+    <script>
+        const counters = document.querySelectorAll('.inc-num');
+        const speed = 200;
+
+        counters.forEach( counter => {
+        const inccount = () => {
+            const value = +counter.getAttribute('value');
+            const data = +counter.innerText;
+            
+            const time = value / speed;
+            if(data < value) {
+                counter.innerText = Math.ceil(data + time);
+                setTimeout(inccount, 1);
+                }else{
+                counter.innerText = value;
+                }
+            
+        }
+        
+        inccount();
+        });
+
+
+
+    </script>
     
 </body>
 </html>
